@@ -1,1 +1,1 @@
-Crossplatform daemon for windows and unix (linux).
+Cross platform daemon for windows and unix (linux).
