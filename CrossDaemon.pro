@@ -15,17 +15,19 @@ DEFINES += QT_DEPRECATED_WARNINGS
 # You can also select to disable deprecated APIs only up to a certain version of Qt.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
-SOURCES += main.cpp \
-    daemon/winservice.cpp \
-    daemon/daemon.cpp \
-    qtdaemon.cpp \
-    webserver.cpp \
-    webservercontroller.cpp
+SOURCES += qtExample/main.cpp \
+	src/daemon.cpp \
+    src/winservice.cpp \
+	src/unixdaemon.cpp \
+    qtExample/qtdaemon.cpp \
+    qtExample/webserver.cpp \
+    qtExample/webservercontroller.cpp
 
 HEADERS += \
-    daemon/daemon.h \
-    daemon/winservice.h \
-    daemon/daemongeneric.h \
-    qtdaemon.h \
-    webserver.h \
-    webservercontroller.h
+    src/daemon.h \
+    src/winservice.h \
+	src/unixdaemon.h \
+    src/daemongeneric.h \
+    qtExample/qtdaemon.h \
+    qtExample/webserver.h \
+    qtExample/webservercontroller.h

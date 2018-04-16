@@ -1,4 +1,4 @@
-#include <qtdaemon.h>
+#include "qtdaemon.h"
 
 int main(int argc, char *argv[]) {
 	QtDaemon deamon;

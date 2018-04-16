@@ -1,4 +1,5 @@
-﻿#ifndef Q_OS_WIN
+﻿#include "daemongeneric.h"
+#ifndef DG_OS_WIN
 #include "unixdaemon.h"
 
 DaemonGeneric* DaemonSpecific::daemonGeneric = nullptr;

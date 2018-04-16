@@ -1,9 +1,9 @@
 #ifndef DAEMON_H
 #define DAEMON_H
 
-#include "QtGlobal"
+#include "daemongeneric.h"
 
-#ifdef Q_OS_WIN
+#ifdef DG_OS_WIN
 	#include "winservice.h"
 #else
     #include "unixdaemon.h"

@@ -1,4 +1,5 @@
-#ifdef Q_OS_WIN
+#include "daemongeneric.h"
+#ifdef DG_OS_WIN
 #include "winservice.h"
 
 DaemonGeneric* DaemonSpecific::daemonGeneric = nullptr;

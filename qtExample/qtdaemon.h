@@ -1,7 +1,7 @@
 #ifndef QTDAEMON_H
 #define QTDAEMON_H
 
-#include "daemon/daemon.h"
+#include "../src/daemon.h"
 
 #include <QCoreApplication>
 #include "webservercontroller.h"

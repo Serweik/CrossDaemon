@@ -1,6 +1,8 @@
 #ifndef DAEMONGENERIC_H
 #define DAEMONGENERIC_H
 
+#define DG_OS_WIN
+
 enum class DaemonStatus {
 	STOPPED,
 	RUNNING,
